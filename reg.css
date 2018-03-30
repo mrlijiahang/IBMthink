@@ -1,0 +1,33 @@
+@charset "gb2312";
+html{color:#7f7f7f;background:#fff;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal}ol,ul{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:12px;}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:text-top}sub{vertical-align:text-bottom}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit}input,textarea,select{*font-size:100%}legend{color:#333;}
+a{color:#414141;text-decoration:none}a:hover{color:#0083e2;text-decoration:underline}a:focus {outline:none}
+body{font:normal 14px/140% arial,"Microsoft Yahei";}
+font{font-size:12px;}
+.clearfix{display: inline-block;}
+.clearfix{zoom: 1;}
+*html .clearfix{height: 1%;}
+.clearfix{display: block;}
+.clearfix:after{clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+.fl,.fr{display:inline;}
+.fl{float:left;}
+.fr{float:right;}
+html, body{width: 100%; height: 100%; }
+.wrap{width: 1000px; margin: 0 auto; }
+.pr{ position: relative; }
+.pa{ position: absolute; }
+.input-text{ width: 270px; height: 30px;  background: #fff;color: #333; padding: 0 15px ;}
+.red{ color: #f00; margin-right: 10px;}
+.input-select{ width:165px;height:30px;border:#bfbfbf solid 1px; background: #fff;}
+.input-text-sub{ width: 100px; height: 30px;background: #fff;color: #333; padding: 0 15px ;}
+.sub1{ width: 120px; height: 30px; line-height: 30px; background: #e5e5e5; color: #333;  border: 0; margin-right: 20px; font-size: 16px; cursor: pointer; font-weight: bold; border-radius: 10px;}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .floatMessage{ position:fixed !important}
+}
+
+#success td a{ color: #21518f;}
+#success td a:hover{ color: #3fa7dd;}
+.floatMessage {z-index:119999;right:0px;overflow:hidden;width:340px;padding:7px 22px 0 22px;float:right;position:absolute;background:#444; border:1px solid #444;display:none;}
+.floatMessage div{width:300px;padding:20px 10px;margin:5px 10px 10px 10px;display:inline;background:#FFF; border:1px solid #ccc;float:left}
+.floatMessage ul{width:280px;margin:0;float:left;}
+.floatMessage li{width:280px;line-height:22px;color:red;float:left;list-style-type:none; list-style:none;cursor:hand; font-size:14px}
+#questtab{ display: none;}
